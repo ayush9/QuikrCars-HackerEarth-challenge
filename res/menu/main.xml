@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Search / will display always -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/search"
+          android:title="action_search"
+          android:showAsAction="ifRoom"/>
+     
+  
+     
+    <!-- Refresh -->
+    <item android:id="@+id/action_refresh"
+          android:title="refresh"
+          android:showAsAction="ifRoom" />
+     
+    <!-- Help -->
+    <item android:id="@+id/action_help"
+         
+          android:title="help"
+          android:showAsAction="never"/>
+     
+    <!-- Check updates -->
+    <item android:id="@+id/action_check_updates"
+          android:title="updates"
+          android:showAsAction="never" />
+</menu>
